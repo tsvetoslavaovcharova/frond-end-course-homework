@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact us</title>
+    </head>
+    <body>
+        <iframe src="header.html" frameborder="0" width="100%"></iframe>
+       
+        <section>
+            <table style="width:50%">
+                <form action="thankYou.html" method="post">
+                     <tr>
+                        <td colspan="2">
+                            <h1>Contact us</h1>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Your name:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="fname" name="fname" placeholder="Fill your name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="mail" name="mail" placeholder="example@domain.com" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>City:</label>
+                        </td>
+                        <td>
+                            <select id="city" name="city">
+                                <option value="sofia">Sofia</option>
+                                <option value="plovdiv">Plovdiv</option>
+                                <option value="varna">Varna</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gender:</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="male" name="variation" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="variation" value="female">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Your message:</label>
+                        </td>
+                        <td>
+                            <textarea id="message" name="message" rows="2" cols="20" required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit">Send</button>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </section>
+    </body>
+</html>
