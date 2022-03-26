@@ -1,0 +1,27 @@
+body {
+    background-color: #34495e;
+    font-family: "Verdana";
+}
+
+h1, h4 {
+    color: white;
+    font-family: "Verdana";
+}
+
+.redTable {
+    background-color: #e74c3c;
+    width: 80%;
+}
+
+#mainTable {
+    width: 100%;
+}
+
+span {
+    color: #f1c40f;
+}
+
+.divPersonDescription {
+    color: white;
+    font-size: 12px;
+}
