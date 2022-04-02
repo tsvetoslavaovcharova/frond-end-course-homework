@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.nav li, ul {
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+#divNavigation {
+    background-color: #2984b9;
+    height: 90px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#imgLogo {
+    margin-right: 150px;
+    position: relative;
+}
+
+#imgPlanets {
+    display: inline;
+    width: 300px;
+}
+
+#leftDiv {
+    background-color: #174f74;
+    width: 200px;
+    height: 100%;
+    float: left;
+    display:inline;
+    position: relative;
+    margin-top: 90px;
+   
+}
+
+#rightDiv {
+    background-color: #174f74;
+    width: 200px;
+    height: 100%;
+    float: right;
+    display: inline;
+    position: relative;
+    margin-top: 90px;
+}
+
+#centerDiv {
+    display: inline;
+    position: absolute;
+    margin-right: 200px;
+    
+    margin-top: 90px;
+}
+
+ p {
+    display: inline;
+    width: 100px;
+}
+
+
+h1 {
+     display: block;
+}
