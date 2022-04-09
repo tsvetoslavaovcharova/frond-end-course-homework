@@ -1,0 +1,14 @@
+@keyframes spaceXAnimation {
+    0%   {left: 0px; top: 0px; transform: rotate(0); } 
+    25%  {left: 0; top: 500px; transform: rotate(0);} 
+    50%  {left: 500px; top: 500px; transform: rotate(0);} 
+    to   {left: 500px; top: -400px; transform: rotate(30deg);} 
+
+}
+
+img{
+    position: relative;
+    animation-name: spaceXAnimation;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
