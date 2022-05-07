@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jscode.js"></script>
+    </head>
+
+    <body>  
+        <table>
+            <tbody>
+                <div class="calcWrapper">
+
+                    <div>
+                        <div class="calcButton" onclick="addNumber('1')">1</div>
+                        <div class="calcButton" onclick="addNumber('2')">2</div>
+                        <div class="calcButton" onclick="addNumber('3')">3</div>
+                        <div class="calcButton" onclick="addNumber('4')">4</div>
+                        <div class="calcButton" onclick="addNumber('5')">5</div>
+                        <div class="calcButton" onclick="addNumber('6')">6</div>
+                        <div class="calcButton" onclick="addNumber('7')">7</div>
+                        <div class="calcButton" onclick="addNumber('8')">8</div>
+                        <div class="calcButton" onclick="addNumber('9')">9</div>
+                        <div class="calcButton calcButtonZero" onclick="addNumber('0')">0</div>
+
+                    </div>
+                    <div class="calcSignWrapper">
+                        <div class="calcButton" onclick="selectOperation('+')">+</div>
+                        <div class="calcButton" onclick="selectOperation('-')">-</div>
+                        <div class="calcButton" onclick="selectOperation('/')">/</div>
+                        <div class="calcButton" onclick="selectOperation('*')">*</div>
+                        <div class="calcButton" onclick="calc()">=</div>
+                    </div>
+                
+                </div>
+            </tbody>
+        </table>
+    </body>
+</html>
